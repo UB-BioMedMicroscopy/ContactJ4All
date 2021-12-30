@@ -41,10 +41,6 @@ ContactJ is macro script for the open-source image analysis software ImageJ. Thi
 
 ## Example Images
 
-**Image credits** 
-
-Maria Calvo and Gemma Martin-  Advanced Optical Microscopy Unit-CCiTUB University of Barcelona.
-
 **xyz Images**
 
 Retinal Pigment Epithelial Cells loaded with Oleic Acid for 6h were fixed, permeabilized, immunolabelled with rabbit anti TOM20 (Proteintech) and donkey anti rabbit A555 and labelled with Bodipy 493/503 (Termofisher) and DAPI (Sigma). Confocal section images were taken every 370 nm. Channel 1 red: Tom20 (Mitochondria); Channel 2 green: Bodipy 493/503 (Lipid Droplets); Channel 3 blue: DAPI (Nucleus).
@@ -53,6 +49,9 @@ Before running ContactJ4All:
 1.	Filter Lipid Droplet Image (Channel 1) with Gaussian Blur (sigma 2) and Mitochondria Image (Channel 2) with Gaussian Blur (sigma 1). 
 2.	Select Otsu Autothreshold method for both channels at the initial GUI.
 
+Image credits:
+Maria Calvo and Gemma Martin-  Advanced Optical Microscopy Unit-CCiTUB University of Barcelona.
+
 **xyt Images**
 
 Retinal Pigment Epithelial Cells loaded with Oleic Acid for 6h and labelled with TMRM and Bodipy 493/503 (Termofisher) and DAPI (Sigma). Confocal images of live cells were taken every 280 ms. Channel 1 red: TMRM (Mitochondria); Channel 2 gray: Bright Field; Channel 3 green: Bodipy 493/503 (Lipid Droplets).
@@ -60,6 +59,19 @@ Retinal Pigment Epithelial Cells loaded with Oleic Acid for 6h and labelled with
 Before Running ContactJ4All:
 1.	No preprocessing required. 
 2.	Select Otsu Autothreshold method for both channels at the initial GUI.
+
+Image credits:
+Maria Calvo and Gemma Martin-  Advanced Optical Microscopy Unit-CCiTUB University of Barcelona.
+
+**xyt_Supplementary Figure_ContactJ4All**
+
+Cos Cell loaded with Oleic Acid and labelled with TMRM and Bodipy 493/503 (Termofisher). Confocal images of live cells were taken every 500 ms. Images have been background subtracted, contrast enhanced and Gaussian Blur filtered.
+
+Before Running ContactJ4All:
+1. Select Mean Autothreshold for Mitochondria image and Yen Autothreshold for Lipid Droplets image.
+
+Image credits:
+Albert Pol and Marta Bosch- University of Barcelona, IDIBAPS.
 
 
 
