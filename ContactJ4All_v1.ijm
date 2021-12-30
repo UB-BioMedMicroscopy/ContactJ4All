@@ -1,4 +1,5 @@
 
+	
 /*
 Advanced Optical Microscopy Unit
 Scientific and Technological Centers. Clinic Medicine Campus
@@ -32,7 +33,7 @@ Requirements:
 
 
 //Close previous images and results
-if (nImages>2) {
+if (nImages>1) {
 
 	if(isOpen("Results")){
 	    IJ.deleteRows(0, nResults);
@@ -58,11 +59,11 @@ if (nImages>2) {
 	  Dialog.create("ContactJ4All");
 	
 	  Dialog.addMessage("\n Organelle 1\n ");
-	  Dialog.addImageChoice("Image Organell 1");
+	  Dialog.addImageChoice("Image Organelle 1");
 	  Dialog.addChoice("Threshold organelle 1:", threshold2);
 	
 	  Dialog.addMessage("\n Organelle 2\n ");
-	  Dialog.addImageChoice("Image Organell ");
+	  Dialog.addImageChoice("Image Organelle 2 ");
 	  Dialog.addChoice("Threshold organelle 2:", threshold2);
 	 
 	  Dialog.addMessage("\n");
