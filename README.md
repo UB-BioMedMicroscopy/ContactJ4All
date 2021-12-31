@@ -73,6 +73,8 @@ Before Running ContactJ4All:
 Image credits:
 Albert Pol and Marta Bosch- University of Barcelona, IDIBAPS.
 
+**ContactJ4All DOI**
 
+https://zenodo.org/badge/latestdoi/442839907 
 
 
